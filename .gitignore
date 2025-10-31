@@ -1,0 +1,4 @@
+.DS_Store
+vhosts/*
+nginx/conf.d/*
+!nginx/conf.d/phpMyAdmin.conf
