@@ -6,7 +6,7 @@
 # @version  1.0.0
 #
 
-name: word-scramble
+name: nginx-mysql-env
 
 services:
     app:
@@ -21,7 +21,6 @@ services:
         ports:
             - "8080:80"
         environment:
-            - NGINX_HOST=wordscramble.com.localhost
             - NGINX_PORT=80
     db:
         image: mysql:latest

@@ -17,9 +17,3 @@ echo Chowning phpMyAdmin...
 cd /etc/phpmyadmin
 chown -R root:www-data .
 echo phpMyAdmin chowned!
-
-echo Chowning vhosts...
-# Our vhosts also need to be readable for the server
-cd /home/admin/web
-chown -R root:www-data .
-echo vhosts chowned!
